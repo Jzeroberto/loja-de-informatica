@@ -40,7 +40,11 @@
                 <div class="collapse navbar-collapse" id="navbarCollapse">
                     <ul class="navbar-nav ms-auto">
                         <li class="nav-item">
-                            <a class="btn btn-logout-top" href="login">&#x279E; Logout</a>
+                        <form method="POST" action="{{ route('logout') }}" x-data>
+                        @csrf
+                            <button class="btn btn-logout-top" href="{{ route('logout') }}"
+                                   @click.prevent="$root.submit();">&#x279E; Logout</button>
+                        </form>
                         </li>
                     </ul>
                 </div>
@@ -52,14 +56,6 @@
     <main>
         <div class="container">
             <div class="row">
-            <form method="POST" action="{{ route('logout') }}" x-data>
-                    @csrf
-
-                    <x-responsive-nav-link href="{{ route('logout') }}"
-                                   @click.prevent="$root.submit();">
-                        {{ __('Log Out') }}
-                    </x-responsive-nav-link>
-                </form>
                 <!-- Navbar lateral -->
                 <nav class="col-md-3 col-lg-3 d-md-block bg-dark sidebar d-lg-block" id="menu-lateral">
                     <div class="position-sticky pt-3">
@@ -92,7 +88,7 @@
 
                             <li class="nav-item">
                                     <li class="nav-item">
-                                        <a class="nav-link logout-link" href="/mainsite">&#x279E; Logout</a>
+                                        <a class="nav-link logout-link" href="info.main">&#x279E; Logout</a>
                                     </li>
                                 </ul>
                             </li>

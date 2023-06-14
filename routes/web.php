@@ -17,12 +17,10 @@ use App\Http\Controllers\SiteController;
 |
 */
 
-Route::get('/logout', function () {
-    return view('info/main');
-});
+
 
 Route::get('/', function () {
-    return view('welcome');
+    return view('info/main');
 });
 
 Route::get('/main', function () {
@@ -44,7 +42,7 @@ Route::middleware([
 ])->group(function () {
     Route::get('/dashboard', function () {
         return view('layouts/main');
-    })->name('dashboard');
+    })->name('layouts/main');
 });
 
 
