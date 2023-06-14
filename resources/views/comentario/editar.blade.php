@@ -12,6 +12,7 @@
     <!-- /.card-header -->
     <!-- form start -->
     <form action="/comentario/salvar_alteracao" method="post">
+    @csrf
     <input type="hidden" name="id" value="{{ $comentario['id'] }}" />
     <div class="card-body">
         <div class="form-group">

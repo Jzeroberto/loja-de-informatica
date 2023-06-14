@@ -36,15 +36,6 @@
                             "<td>" .$linha['assunto'] . "</td>" .
                             "<td>" .$linha['conteudo'] . "</td>" .
                             "<td>
-                                <a href='/cliente/editar/" . $linha['id']. "' class='btn btn-default'>
-                                    <i class='fas fa-edit'></i>
-                                    <span>Editar</span>
-                                </a>
-
-                                <a href='/cliente/excluir/" . $linha['id']. "' class='btn btn-danger'>
-                                    <i class='fas fa-trash'></i>
-                                    <span>Excluir</span>
-                                </a>
                             </td>" .
                         "</tr>";
 

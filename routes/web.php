@@ -132,11 +132,11 @@ Route::group(['prefix' => 'contato'], function() {
                 [ContatoController::class, 'salvar_novo']
             );
     Route::get('/excluir/{id}',
-                [ClienteController::class, 'excluir']
+                [ContatoController::class, 'excluir']
             );
 
     Route::get('/pesquisa',
-            [ClienteController::class, 'pesquisa']
+            [ContatoController::class, 'pesquisa']
             );
 });
 

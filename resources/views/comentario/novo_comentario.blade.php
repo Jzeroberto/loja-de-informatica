@@ -26,7 +26,7 @@
             <input type="text" 
                     class="form-control" 
                     placeholder="99999999"
-                    name="telefone"
+                    name="comentario"
                 >
         </div>
     </div>
