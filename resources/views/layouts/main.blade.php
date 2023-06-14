@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Exemplo de Dashboard SatellaSoft</title>
+    <title>Admin ZP Shop</title>
 
     <!-- Otimização interna -->
     <link rel="preload" href="css/style.css" as="style">
@@ -31,8 +31,7 @@
     <header>
         <nav class="navbar navbar-expand-md navbar-dark bg-dark container-fluid">
             <div class="container">
-                <a class="navbar-brand" href="#"><img src="https://satellasoft.com/img/logo/satellasoft-white.svg"
-                        alt="Logo SatelaSoft" style="max-width: 200px;width: 100%;"></a>
+            <h1><b><span style="color: white">Adm ZP SHOP</span></b></h1>
 
                 <button class="navbar-toggler d-lg-none" type="button" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
