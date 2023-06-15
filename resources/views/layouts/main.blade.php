@@ -106,8 +106,8 @@
                         </ol>
                     </nav>
 
-                    <h1>Conteúdo principal</h1>
-                    <p>Conteúdo da página</p>
+                    <h1>ADM ZP SHOP</h1>
+                    <p>----------SELECIONE UMA OPÇÃO AO LADO PARA INICIAR UM CADASTRO-----------</p>
                     @yield('content')
                 </main>
             </div>
